@@ -1,0 +1,34 @@
+#titrePage{
+    color: red;
+    font-size: 3em;
+    margin: 0vh 50vh 0vh 50vh;
+}
+p::first-letter{
+    font-size: 2em;
+    text-align: justify;
+}
+#paragraphe1::first-letter{
+    color: purple;
+}
+#paragraphe2::first-letter, #paragraphe3::first-letter, #paragraphe4::first-letter, #paragraphe5::first-letter{
+    color: green;
+}
+h2:hover{
+    color: rgb(33, 159, 213) !important;
+}
+a{
+    color: black;
+    text-decoration: underline wavy red;
+}
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+}
+div{
+    border: 2px solid;
+    border-color:  #daa520;
+    border-radius: 10px;
+    padding: 10px;
+    background-image:url(./images/ex04_image_fond.jpg);
+    box-shadow: 0 5px 10px black;
+}
