@@ -14,7 +14,7 @@ p::first-letter{
     color: green;
 }
 h2:hover{
-    color: rgb(33, 159, 213) !important;
+    color: rgb(33, 159, 213);
 }
 a{
     color: black;
